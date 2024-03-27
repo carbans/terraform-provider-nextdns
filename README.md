@@ -1,4 +1,7 @@
-# terraform-provider-nextdns
+# NextDNS Terraform Provider
+
+This repo is a fork of [amalucelli/terraform-provider-nextdns](https://github.com/amalucelli/terraform-provider-nextdns), I decide to fork it because the original repo is not responding to PR.
+Thanks to [amalucelli](https://github.com/amalucelli) for the original work.
 
 [NextDNS](https://nextdns.io/) provider for [Terraform](https://terraform.io).
 
@@ -15,8 +18,8 @@ You can find your API Key in the [NextDNS account](https://my.nextdns.io/account
 terraform {
   required_providers {
     nextdns = {
-      source  = "amalucelli/nextdns"
-      version = "0.1.0"
+      source  = "carbans/nextdns"
+      version = "0.2.2"
     }
   }
 }
